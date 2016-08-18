@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALLoadingView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Manager for loading views presentation'
 
 # This description is used to generate tags and improve search results.
