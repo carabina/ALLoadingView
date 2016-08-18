@@ -1,25 +1,159 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="G4r-Oo-Pee">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JFp-k7-sZo" customClass="ViewController" customModule="ALLoadingView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="uf8-Lg-Bjo"/>
+                        <viewControllerLayoutGuide type="bottom" id="YHq-9P-0Y9"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="hX0-sD-UxW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g30-Xm-ayw">
+                                <rect key="frame" x="20" y="28" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="TgF-kI-vZg"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Simple screen with activity indicator">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="action_testCaseOne:" destination="JFp-k7-sZo" eventType="touchUpInside" id="zKD-hX-ea6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wyz-ar-jGP">
+                                <rect key="frame" x="20" y="73" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="VMr-wk-EUg"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Blurred screen with activity indicator and message">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0">
+                                                    <tabStops>
+                                                        <textTab alignment="left" location="28">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="56">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="84">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="112">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="140">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="168">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="196">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="224">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="252">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="280">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="308">
+                                                            <options/>
+                                                        </textTab>
+                                                        <textTab alignment="left" location="336">
+                                                            <options/>
+                                                        </textTab>
+                                                    </tabStops>
+                                                </paragraphStyle>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="action_testCaseTwo:" destination="JFp-k7-sZo" eventType="touchUpInside" id="R84-BD-sX0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uSX-V8-E4O">
+                                <rect key="frame" x="20" y="118" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="eV0-VM-pBr"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Blurred screen with indicator, message and cancel button">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="action_testCaseThree:" destination="JFp-k7-sZo" eventType="touchUpInside" id="0VH-ib-TLZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pt0-qU-jDB">
+                                <rect key="frame" x="20" y="163" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="1iG-3t-dtD"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Loading screen with progress bar and message label">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="action_testCaseFour:" destination="JFp-k7-sZo" eventType="touchUpInside" id="ZSG-Ji-PAT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uSX-V8-E4O" firstAttribute="leading" secondItem="hX0-sD-UxW" secondAttribute="leadingMargin" id="51J-2Z-0lM"/>
+                            <constraint firstItem="uSX-V8-E4O" firstAttribute="top" secondItem="Wyz-ar-jGP" secondAttribute="bottom" constant="15" id="6Ka-F4-dsV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uSX-V8-E4O" secondAttribute="trailing" id="7Cs-SC-doe"/>
+                            <constraint firstItem="pt0-qU-jDB" firstAttribute="leading" secondItem="hX0-sD-UxW" secondAttribute="leadingMargin" id="AYe-7H-dSD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g30-Xm-ayw" secondAttribute="trailing" id="Adx-A5-dh4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pt0-qU-jDB" secondAttribute="trailing" id="F9f-Se-3NT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wyz-ar-jGP" secondAttribute="trailing" id="FMY-B0-JNx"/>
+                            <constraint firstItem="g30-Xm-ayw" firstAttribute="leading" secondItem="hX0-sD-UxW" secondAttribute="leadingMargin" id="YCr-1z-ENj"/>
+                            <constraint firstItem="Wyz-ar-jGP" firstAttribute="leading" secondItem="hX0-sD-UxW" secondAttribute="leadingMargin" id="f0p-16-ygf"/>
+                            <constraint firstItem="Wyz-ar-jGP" firstAttribute="top" secondItem="g30-Xm-ayw" secondAttribute="bottom" constant="15" id="jOx-b1-MCI"/>
+                            <constraint firstItem="g30-Xm-ayw" firstAttribute="top" secondItem="uf8-Lg-Bjo" secondAttribute="bottom" constant="8" id="pnx-wv-vQQ"/>
+                            <constraint firstItem="pt0-qU-jDB" firstAttribute="top" secondItem="uSX-V8-E4O" secondAttribute="bottom" constant="15" id="uZH-vb-ByC"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XnG-xn-N8q" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="308" y="450"/>
         </scene>
     </scenes>
 </document>
