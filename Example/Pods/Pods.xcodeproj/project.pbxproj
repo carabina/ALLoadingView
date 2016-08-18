@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C80BFCB478AC7599D15E5EE317C1529 /* ALLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9FCEFC3645AA6DBB59B98DE2C96F5 /* ALLoadingView.swift */; };
 		0E908B03FDAD2D83BA0215E1F3AB53CE /* ALLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 231D836175DA17A47A55AD0AE03717E6 /* ALLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12CE2B131D6624BD00F8884F /* ALLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CE2B121D6624BD00F8884F /* ALLoadingView.swift */; };
 		17B1ED5DD5E0AC436596B39A88C68478 /* Pods-ALLoadingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEBEC703DDB544D34F37ECBCBC07590 /* Pods-ALLoadingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2810A09F7F6B6439ECA839E75A34DAB7 /* Pods-ALLoadingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C8CDDD99F57FA2930202A8FE960A47 /* Pods-ALLoadingView_Example-dummy.m */; };
 		3C756FAF0ABC69F1BFF422699C247DA4 /* Pods-ALLoadingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F683B5F3BCCBDD550BFA2B38BC3DDBFD /* Pods-ALLoadingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A35CF199E648DC05F66983C1713D8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		8824516A135069D1A7C2FFA104D21B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		AA5D6FDBD8233499F26BEFC7255F82D6 /* ALLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E0E7021647DBB059DE32C023446335 /* ALLoadingView-dummy.m */; };
+		A36700B56B278CCB3925B98BC640DA8A /* ALLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E0E7021647DBB059DE32C023446335 /* ALLoadingView-dummy.m */; };
 		AB5A2C35C382CDDF315EED470ACDAB11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C1F31441454DB181FA1ECD2288E53315 /* Pods-ALLoadingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63861B6CA48443B645E805E03032C4DA /* Pods-ALLoadingView_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		01D35980921029EC19DFAA06D3B11C88 /* Pods-ALLoadingView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALLoadingView_Tests-resources.sh"; sourceTree = "<group>"; };
-		12CE2B121D6624BD00F8884F /* ALLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALLoadingView.swift; sourceTree = "<group>"; };
 		231D836175DA17A47A55AD0AE03717E6 /* ALLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALLoadingView-umbrella.h"; sourceTree = "<group>"; };
 		2B7A6FCCC89FF963873627488948588B /* Pods-ALLoadingView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALLoadingView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4CD92FFE3F61476023FC1B24C4AD622F /* Pods-ALLoadingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALLoadingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		B1E0E7021647DBB059DE32C023446335 /* ALLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALLoadingView-dummy.m"; sourceTree = "<group>"; };
 		BA158E1A92276A3C490FB939F1CE0143 /* Pods-ALLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEDA13E072167403D9B718A5478EBD0D /* Pods-ALLoadingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALLoadingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDB9FCEFC3645AA6DBB59B98DE2C96F5 /* ALLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ALLoadingView.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DDD77537032EF02DB8C895A96A191703 /* Pods-ALLoadingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALLoadingView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DDF1ABE3F4E840A80A16D09ED93FFB2C /* ALLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALLoadingView.xcconfig; sourceTree = "<group>"; };
@@ -92,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28889ACB4A80DD9CE55524792566503F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDB9FCEFC3645AA6DBB59B98DE2C96F5 /* ALLoadingView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +125,7 @@
 		64F595D1C87650ADCB9F30299F27C91A /* ALLoadingView */ = {
 			isa = PBXGroup;
 			children = (
-				E948E4E332A11AA41CCFDD6BBF016FB8 /* Classes */,
+				28889ACB4A80DD9CE55524792566503F /* Classes */,
 			);
 			path = ALLoadingView;
 			sourceTree = "<group>";
@@ -214,14 +222,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E948E4E332A11AA41CCFDD6BBF016FB8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				12CE2B121D6624BD00F8884F /* ALLoadingView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -256,7 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5328FBFC7B36A408F54920D6E80C37F0 /* Build configuration list for PBXNativeTarget "ALLoadingView" */;
 			buildPhases = (
-				BA7F09121B02B92E348DEA62B0B56B48 /* Sources */,
+				A5AD811EC3E9491E8BE0D1466C603681 /* Sources */,
 				61DBB93DE58DD95AC6264181E2418BF6 /* Frameworks */,
 				241562D3863DC9D2766E7F124B40F860 /* Headers */,
 			);
@@ -349,12 +349,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA7F09121B02B92E348DEA62B0B56B48 /* Sources */ = {
+		A5AD811EC3E9491E8BE0D1466C603681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA5D6FDBD8233499F26BEFC7255F82D6 /* ALLoadingView-dummy.m in Sources */,
-				12CE2B131D6624BD00F8884F /* ALLoadingView.swift in Sources */,
+				A36700B56B278CCB3925B98BC640DA8A /* ALLoadingView-dummy.m in Sources */,
+				0C80BFCB478AC7599D15E5EE317C1529 /* ALLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
